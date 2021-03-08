@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: #000;
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+.image {
+  width: 1.8125rem;
+  height: 1.8125rem;
+  border-radius: 50%;
+}
+
+.header section {
+  /* border: 2px solid blue; */
+  width: 100px;
+}
+
+.mini-star-up, .mini-star-down {
+  position: absolute;
+  right: 30px;
+  font-size: 0.6rem;
+}
+
+.mini-star-down {
+  right: 25px;
+  top: 25px;
+  font-size: 0.5rem;
+}

@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(255,255,255,0.6);
+  background-color: #000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* positioning */
+
+.fixed {
+  position: fixed;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+
+/* layout */
+.flex {
   display: flex;
-  flex-direction: column;
+}
+.justify-sb {
+  justify-content: space-between;
+}
+.align-ct {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* font */
+.font-15 {
+  font-size: 1.5rem;
+}
+.font-10 {
+  font-size: 1rem;
+}
+.font-12 {
+  font-size: 1.2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fw-900 {
+  font-weight: 900;
+}
+
+/* dimensions */
+.fl-width {
+  width: 100%;
+}
+
+.h-hf {
+  height: 2.875rem;
+}
+
+.mg-top {
+  color: #000;
+  margin-top: 2.875rem;
+}
+
+/* padding */
+.pd5 {
+  padding: 0 0.5em;
+}
+
+.pd10 {
+  padding: 1em;
 }
