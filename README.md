@@ -1,1 +1,2 @@
-# A Twitter app
+# A Twitter app clone web-app
+Collaborative project
